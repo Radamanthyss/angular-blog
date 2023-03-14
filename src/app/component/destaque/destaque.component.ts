@@ -13,6 +13,8 @@ export class DestaqueComponent implements OnInit {
   titulo:string = "";
   @Input()
   descricao:string = "";
+  @Input()
+  id:string = "";
 
   constructor() { }
 

@@ -1,1 +1,15 @@
-<p>conteudo works!</p>
+<div class="container-conteudo">
+  <div class="conteudo-capa">
+    <img src="{{ foto }}" alt="" />
+  </div>
+  <div class="conteudo-titulo">
+    <h1>{{ titulo }}</h1>
+    <hr />
+  </div>
+  <div class="conteudo-descricao">
+    <p>
+      {{ descricao }}
+    </p>
+  </div>
+  <a [routerLink]="['']"> << VOLTAR</a>
+</div>

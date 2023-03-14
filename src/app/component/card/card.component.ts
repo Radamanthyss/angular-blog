@@ -10,10 +10,13 @@ export class CardComponent implements OnInit {
   foto:string = "";
   @Input()
   titulo:string ="";
+  @Input()
+  id:string = "";
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
