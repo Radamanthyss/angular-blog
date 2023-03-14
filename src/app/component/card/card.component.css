@@ -1,7 +1,3 @@
-.card-container{
-
-}
-
 .card-conteudo-container{
   width: 500px;
   height: 170px;
@@ -11,7 +7,7 @@
 }
 
 .card-foto > img{
-  width: 100%;
+  width: 200px;
   height: 100%;
 }
 
