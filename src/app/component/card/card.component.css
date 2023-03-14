@@ -1,0 +1,29 @@
+.card-container{
+
+}
+
+.card-conteudo-container{
+  width: 500px;
+  height: 170px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-foto > img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-titulo{
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-separator-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+

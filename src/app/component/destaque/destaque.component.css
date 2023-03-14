@@ -1,6 +1,5 @@
 .destaque-container {
-  width: 50%;
-  border: 1px solid red;
+  width: 1000px;
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -11,7 +10,7 @@
 
 .destaque-foto > img{
   width: 100%;
-  min-width: 100%;
+  min-width: 70%;
 }
 
 .destaque-titulo > h1 {
